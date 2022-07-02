@@ -24,7 +24,7 @@ router.post('/upload', ctx => {
 
     const data = JSON.parse(fullData.toString())
     console.log(data);
-    write(`./uploads/${data.name}`, new Buffer(data.value.replace('data:image/png;base64,', '').replace('data:image/jpeg;base64,', '').replace('data:application/octet-stream;base64,'), 'base64'))
+    write(`./uploads/${data.name}`, new Buffer(data.value.replace('data:image/png;base64,', '').replace('data:image/jpeg;base64,', '').replace('data:image/webp;base64,', ''), 'base64'))
     // you can do stuff with the data now
   });
 })
