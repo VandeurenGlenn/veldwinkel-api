@@ -1,0 +1,31 @@
+{
+  "name": "veldwinkel-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "c": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/veldwinkel-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/veldwinkel-api/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/veldwinkel-api#readme",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.75.7"
+  }
+}
